@@ -10,6 +10,7 @@
 计算出所有Bid和Ask档位的delta volume，并将其汇总得到confirmed total volume和confirmed total turnover：
 
 $$
+
 \text{totalVolumeConfirmed} = \sum \text{delta volume on 10 positions}\\
 
 \text{totalTurnoverConfirmed} = \sum \text{price} \times \text{delta volume on 10 positions}
