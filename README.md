@@ -13,6 +13,7 @@ $$
 \text{totalVolumeConfirmed} = \sum \text{delta volume on 10 positions}\\
 
 \text{totalTurnoverConfirmed} = \sum \text{price} \times \text{delta volume on 10 positions}
+
 $$
 
 处理未确认交易量和金额
@@ -23,7 +24,6 @@ $$
 - 计算剩余交易量和成交金额：
 
 $\text{VolumeLeft} = \text{Volume} - \text{totalVolumeConfirmed}$
-
 
 $\text{TurnoverLeft} = \text{Turnover} - \text{totalTurnoverConfirmed}$
 
